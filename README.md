@@ -25,8 +25,8 @@ v.setState(prevState => {
 console.log(v.getState());
 
 // clear your data
-v.clear();
-console.log(v.getState());
+// v.clear();
+// console.log(v.getState());
 
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "yl-persistent-var",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Persist your data by localStorage and use it like react's state.",
   "main": "./lib/index.js",
   "scripts": {
