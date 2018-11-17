@@ -8,7 +8,8 @@ Recommended for use in webpack environment.
 ```javascript
 import YlPersistentVar from 'yl-persistent-var'
 
-const v = new YlPersistentVar();
+// Set cache key 'custom-name'
+const v = new YlPersistentVar('custom-name');
 // set states
 v.setState({
   a:1,
