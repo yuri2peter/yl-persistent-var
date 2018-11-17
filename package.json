@@ -1,24 +1,26 @@
 {
-  "name": "yl-software",
+  "name": "yl-persistent-var",
   "version": "1.0.0",
-  "description": "The description of your package.",
+  "description": "Persist your data by localStorage and use it like react's state.",
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuri2peter/npm-package-scaffolding.git"
+    "url": "https://github.com/yuri2peter/yl-persistent-var.git"
   },
   "keywords": [
-    "yuri2"
+    "yuri2",
+    "localStorage",
+    "react"
   ],
   "author": "yuri2",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuri2peter/npm-package-scaffolding/issues"
+    "url": "https://github.com/yuri2peter/yl-persistent-var/issues"
   },
-  "homepage": "https://github.com/yuri2peter/npm-package-scaffolding#readme",
+  "homepage": "https://github.com/yuri2peter/yl-persistent-var#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
